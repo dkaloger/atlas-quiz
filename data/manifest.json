@@ -1,0 +1,40 @@
+{
+  "app" : "MedStudy",
+  "atlases" : [
+    {
+      "figureCount" : 22,
+      "id" : "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "labelCount" : 357,
+      "path" : "atlases/AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "title" : "Platzer 4-1"
+    }
+  ],
+  "exportedAt" : "2026-11-10T12:32:02Z",
+  "formatVersion" : 1,
+  "subjects" : [
+    {
+      "colorHex" : "#007AFF",
+      "id" : "4E4F6649-9232-4A6F-B96B-C4512AA6495B",
+      "lectures" : [
+        {
+          "atlases" : [
+            {
+              "atlasID" : "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+              "figures" : [
+                "EC10E661-50B5-461F-B396-17560CC50235",
+                "38F6C549-17A3-4D42-8043-CCE24422DE12"
+              ]
+            }
+          ],
+          "id" : "261316CD-3CB5-49B9-A862-2F3C5AD39487",
+          "lectureDate" : "2026-11-06T11:35:33Z",
+          "title" : "Κοιλιακό Τοίχωμα & Πύελος"
+        }
+      ],
+      "title" : "Ανατομεία"
+    }
+  ],
+  "unfiledAtlases" : [
+
+  ]
+}
