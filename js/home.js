@@ -10,7 +10,6 @@ const formatDate = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : da
 function row(atlas, figures, lectureID) {
   const plates = shownPlates(atlas, figures);
   const { known, total } = progress(plates);
-  const labels = plates.reduce((n, p) => n + p.labels.length, 0);
   const subset = plates.length < atlas.plates.length;
   const thumbs = plates.slice(0, 3).reverse()
     .map((p) => `<img src="${esc(imageURL(atlas, p))}" alt="" loading="lazy" decoding="async">`).join('');
@@ -22,7 +21,7 @@ function row(atlas, figures, lectureID) {
         <span class="atlas-title">${esc(atlas.title)}</span>
         <span class="atlas-meta">${subset
           ? `${plates.length} από ${atlas.plates.length} εικόνες`
-          : plates.length === 1 ? '1 εικόνα' : `${plates.length} εικόνες`} · ${labels} αριθμοί</span>
+          : plates.length === 1 ? '1 εικόνα' : `${plates.length} εικόνες`} · ${total} ερωτήσεις</span>
       </span>
       <span class="atlas-score${total && known === total ? ' full' : ''}">
         <span class="score"><b>${known}</b>/${total}</span>
