@@ -1,40 +1,68 @@
 {
-  "app" : "MedStudy",
-  "atlases" : [
+  "app": "MedStudy",
+  "atlases": [
     {
-      "figureCount" : 22,
-      "id" : "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
-      "labelCount" : 357,
-      "path" : "atlases/AF092EE0-1C51-4014-BAB1-2B7F124345C4",
-      "title" : "Platzer 4-1"
+      "figureCount": 22,
+      "id": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "labelCount": 357,
+      "path": "atlases/AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "title": "Platzer 4-1"
+    },
+    {
+      "figureCount": 8,
+      "id": "F5631853-7CBB-40EC-A1E0-2C9D23A16222",
+      "labelCount": 122,
+      "path": "atlases/F5631853-7CBB-40EC-A1E0-2C9D23A16222",
+      "title": "Platzer 2-7"
+    },
+    {
+      "figureCount": 13,
+      "id": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+      "labelCount": 149,
+      "path": "atlases/784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+      "title": "platzer 2-1"
     }
   ],
-  "exportedAt" : "2026-11-10T12:32:02Z",
-  "formatVersion" : 1,
-  "subjects" : [
+  "exportedAt": "2026-11-10T12:32:02Z",
+  "formatVersion": 1,
+  "subjects": [
     {
-      "colorHex" : "#007AFF",
-      "id" : "4E4F6649-9232-4A6F-B96B-C4512AA6495B",
-      "lectures" : [
+      "colorHex": "#007AFF",
+      "id": "4E4F6649-9232-4A6F-B96B-C4512AA6495B",
+      "lectures": [
         {
-          "atlases" : [
+          "atlases": [
             {
-              "atlasID" : "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
-              "figures" : [
+              "atlasID": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+              "figures": [
                 "EC10E661-50B5-461F-B396-17560CC50235",
                 "38F6C549-17A3-4D42-8043-CCE24422DE12"
               ]
+            },
+            {
+              "atlasID": "F5631853-7CBB-40EC-A1E0-2C9D23A16222",
+              "figures": [
+                "09ABC02B-0285-488A-8DB9-4914E97D3843",
+                "039F46E0-7AE8-423F-BD73-273E62FE3CC0",
+                "E59CB146-3D84-4E2C-ACE7-D39FD0E2922B"
+              ]
+            },
+            {
+              "atlasID": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+              "figures": [
+                "CBFBC532-6AA6-4CED-9873-F1B992262BE6",
+                "24131E2A-D136-46E6-B9AE-FD02BEC5C18E",
+                "36979AB3-5E5A-4727-ABF6-EE641EADF6B0"
+              ]
             }
           ],
-          "id" : "261316CD-3CB5-49B9-A862-2F3C5AD39487",
-          "lectureDate" : "2026-11-06T11:35:33Z",
-          "title" : "Κοιλιακό Τοίχωμα & Πύελος"
+          "id": "261316CD-3CB5-49B9-A862-2F3C5AD39487",
+          "lectureDate": "2026-11-06T11:35:33Z",
+          "title": "Κοιλιακό Τοίχωμα & Πύελος"
         }
       ],
-      "title" : "Ανατομεία"
+      "title": "Ανατομεία"
     }
   ],
-  "unfiledAtlases" : [
-
-  ]
+  "unfiledAtlases": []
 }
