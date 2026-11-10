@@ -19,15 +19,21 @@ export function compareNumbers(a, b) {
   return a.localeCompare(b);
 }
 
+/** First letter upper-case (names in the export are often all lower-case). */
+const cap = (t) => (typeof t === 'string' && t ? t[0].toLocaleUpperCase('el') + t.slice(1) : t);
+
 function prepare(atlas, entry) {
+  atlas.title = cap(atlas.title);
   atlas.base = `${DATA}/${entry.path}`;
   atlas.plates.forEach((plate, index) => {
     plate.index = index;
+    plate.name = cap(plate.name);
     const edits = store.edits(atlas.id, plate.id);
     for (const label of plate.labels) {
       label.positions ||= [];
       label.spots ||= [];
       Object.assign(label, edits[label.number]);
+      label.name = cap(label.name);
     }
     plate.results = { ...plate.results, ...store.results(atlas.id, plate.id) };
     plate.ordered = [...plate.labels].sort((a, b) => compareNumbers(a.number, b.number));
