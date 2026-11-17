@@ -66,11 +66,14 @@ export function shownPlates(atlas, figures) {
   return picked.length ? picked : atlas.plates;
 }
 
-/** Mode 1: each label, then its origin and insertion questions. */
+/** Ask "where is the origin/insertion" after a muscle's name. Off: only names are asked. */
+export const ASK_SPOTS = false;
+
+/** Mode 1: each label, then (when ASK_SPOTS) its origin and insertion questions. */
 export function nameSteps(plate) {
   return plate.ordered.flatMap((l) => [
     l.number,
-    ...['origin', 'insertion'].filter((s) => l.spots.includes(s)).map((s) => `${l.number}@${s}`),
+    ...(ASK_SPOTS ? ['origin', 'insertion'].filter((s) => l.spots.includes(s)) : []).map((s) => `${l.number}@${s}`),
   ]);
 }
 
