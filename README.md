@@ -10,7 +10,8 @@ The data is a MedStudy atlas export (`manifest.json` plus an `atlases/` folder).
 1. In MedStudy, export the atlases (Library → share button, or right-click a subject).
 2. Replace the contents of `data/` with the contents of the exported folder, so that
    `data/manifest.json` and `data/atlases/` exist.
-3. Upload the site again.
+3. Run `python3 tools/fix_names.py` to add missing accents to figure names and sort the atlases.
+4. Upload the site again.
 
 Classmates keep their progress: it is stored in their browser by atlas id and figure id.
 

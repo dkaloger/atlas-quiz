@@ -2,11 +2,11 @@
   "app": "MedStudy",
   "atlases": [
     {
-      "figureCount": 22,
-      "id": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
-      "labelCount": 357,
-      "path": "atlases/AF092EE0-1C51-4014-BAB1-2B7F124345C4",
-      "title": "Platzer 4-1"
+      "figureCount": 13,
+      "id": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+      "labelCount": 149,
+      "path": "atlases/784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+      "title": "platzer 2-1"
     },
     {
       "figureCount": 8,
@@ -16,14 +16,42 @@
       "title": "Platzer 2-7"
     },
     {
-      "figureCount": 13,
-      "id": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
-      "labelCount": 149,
-      "path": "atlases/784ECFFC-42C1-4B19-B596-305F5D84DB2D",
-      "title": "platzer 2-1"
+      "figureCount": 22,
+      "id": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "labelCount": 357,
+      "path": "atlases/AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+      "title": "Platzer 4-1"
+    },
+    {
+      "figureCount": 20,
+      "id": "A0A58A6A-4A91-48D1-AEFC-6797C8EEB383",
+      "labelCount": 319,
+      "path": "atlases/A0A58A6A-4A91-48D1-AEFC-6797C8EEB383",
+      "title": "platzer 4-2"
+    },
+    {
+      "figureCount": 16,
+      "id": "CDEA0A31-9EAA-4D42-BD7E-C62CA1668A09",
+      "labelCount": 283,
+      "path": "atlases/CDEA0A31-9EAA-4D42-BD7E-C62CA1668A09",
+      "title": "platzer 6-4"
+    },
+    {
+      "figureCount": 4,
+      "id": "96C43DAF-B822-4479-AB9F-3539D530BEAB",
+      "labelCount": 80,
+      "path": "atlases/96C43DAF-B822-4479-AB9F-3539D530BEAB",
+      "title": "platzer 8-6"
+    },
+    {
+      "figureCount": 2,
+      "id": "A5917822-D1F2-4E23-ACFB-90ABBDB25190",
+      "labelCount": 47,
+      "path": "atlases/A5917822-D1F2-4E23-ACFB-90ABBDB25190",
+      "title": "platzer 8-9"
     }
   ],
-  "exportedAt": "2026-11-10T13:15:39Z",
+  "exportedAt": "2026-11-17T17:21:14Z",
   "formatVersion": 1,
   "subjects": [
     {
@@ -33,10 +61,11 @@
         {
           "atlases": [
             {
-              "atlasID": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+              "atlasID": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
               "figures": [
-                "EC10E661-50B5-461F-B396-17560CC50235",
-                "38F6C549-17A3-4D42-8043-CCE24422DE12"
+                "CBFBC532-6AA6-4CED-9873-F1B992262BE6",
+                "24131E2A-D136-46E6-B9AE-FD02BEC5C18E",
+                "36979AB3-5E5A-4727-ABF6-EE641EADF6B0"
               ]
             },
             {
@@ -48,17 +77,89 @@
               ]
             },
             {
-              "atlasID": "784ECFFC-42C1-4B19-B596-305F5D84DB2D",
+              "atlasID": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
               "figures": [
-                "CBFBC532-6AA6-4CED-9873-F1B992262BE6",
-                "24131E2A-D136-46E6-B9AE-FD02BEC5C18E",
-                "36979AB3-5E5A-4727-ABF6-EE641EADF6B0"
+                "EC10E661-50B5-461F-B396-17560CC50235",
+                "38F6C549-17A3-4D42-8043-CCE24422DE12"
+              ]
+            },
+            {
+              "atlasID": "A0A58A6A-4A91-48D1-AEFC-6797C8EEB383",
+              "figures": [
+                "57547000-B45B-46B0-AF11-583B867C8321",
+                "B99A4257-F1A3-4383-B71F-E038EE8FCF08",
+                "806B94F7-E318-4BE8-B725-B3E0FC299E8A"
+              ]
+            },
+            {
+              "atlasID": "96C43DAF-B822-4479-AB9F-3539D530BEAB",
+              "figures": [
+                "2B796E5A-7122-4FF9-A8AB-95CD37823943",
+                "7FA1DD58-EF3D-4D86-9A44-77E3FA7E3D36"
               ]
             }
           ],
           "id": "261316CD-3CB5-49B9-A862-2F3C5AD39487",
           "lectureDate": "2026-11-06T11:35:33Z",
           "title": "Κοιλιακό Τοίχωμα & Πύελος"
+        },
+        {
+          "atlases": [
+            {
+              "atlasID": "AF092EE0-1C51-4014-BAB1-2B7F124345C4",
+              "figures": [
+                "8BCE0B44-87F8-411D-AFC6-B168AEEF03BB",
+                "D18CE83A-0311-4DF6-A6EC-96BF3CEC83ED",
+                "ABD653DE-9175-43EC-9995-4563C2FF66EE",
+                "E1200BCD-5DCE-4692-8167-32119933DD46",
+                "013E2464-5C11-4D77-A466-80776074727B",
+                "415D2AC7-4AEF-4D08-A413-BC4F2D580051",
+                "857A000E-FFE2-46B3-BA54-4FD50DFC2022",
+                "7207D33E-6367-4FE2-A25D-59D064FA6941",
+                "F43FA0A1-AA9C-4D90-9F0E-7403B5D13210"
+              ]
+            },
+            {
+              "atlasID": "A0A58A6A-4A91-48D1-AEFC-6797C8EEB383",
+              "figures": [
+                "57547000-B45B-46B0-AF11-583B867C8321",
+                "B99A4257-F1A3-4383-B71F-E038EE8FCF08",
+                "806B94F7-E318-4BE8-B725-B3E0FC299E8A",
+                "DF9C8699-CF19-45A2-94EE-6B692FD849CD",
+                "C96F4CA4-2094-4955-A31E-DED255860A67",
+                "D355F34D-A8E9-4910-9978-469882AF8CBD",
+                "231F78B9-6C1F-4E66-BCAD-B61420BD8E63"
+              ]
+            },
+            {
+              "atlasID": "CDEA0A31-9EAA-4D42-BD7E-C62CA1668A09",
+              "figures": [
+                "43D5E1DB-6DD2-40CB-91CC-2D3CF267A739",
+                "D781CA49-78FE-407C-9780-29361D1DB633",
+                "E5AC43FF-AC75-4B9E-919F-EE4C9254EBA8",
+                "BB7C5B79-CC41-4BD3-A97B-434A9BF05A93",
+                "38A43080-7FBE-483C-B1AD-4706D431AC2D"
+              ]
+            },
+            {
+              "atlasID": "96C43DAF-B822-4479-AB9F-3539D530BEAB",
+              "figures": [
+                "2B796E5A-7122-4FF9-A8AB-95CD37823943",
+                "7FA1DD58-EF3D-4D86-9A44-77E3FA7E3D36",
+                "434703E2-A3AB-41B7-85CE-24860D487536"
+              ]
+            },
+            {
+              "atlasID": "A5917822-D1F2-4E23-ACFB-90ABBDB25190",
+              "figures": [
+                "55B4BD7E-9888-426B-88C2-659B7EF96EF0",
+                "A364FF7A-A6E6-4732-93BC-187BD8989EE5"
+              ]
+            }
+          ],
+          "id": "57A6B703-1939-4DE4-A25A-6A9D8924F2C4",
+          "lectureDate": "2026-11-13T07:21:33Z",
+          "title": "ΚΑΤΩ ΑΚΡΟ ΜΗΡΟΣ"
         }
       ],
       "title": "Ανατομεία"

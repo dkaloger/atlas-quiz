@@ -66,7 +66,7 @@ export function mountHome(host, { manifest, atlases, onOpen, onImported }) {
   }
 
   // Every figure of every atlas, whatever the lectures picked.
-  const filed = [...atlases.values()].filter((a) => !unfiled.includes(a.id));
+  const filed = (manifest.atlases || []).map((e) => atlases.get(e.id)).filter((a) => a && !unfiled.includes(a.id));
   if (filed.length) {
     sections.push(`
       <section class="subject plain">
